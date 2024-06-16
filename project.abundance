@@ -1,0 +1,14 @@
+{
+    "atomType": "Molecule",
+    "name": "codeTest",
+    "x": 0,
+    "y": 0,
+    "uniqueID": 1718561553380,
+    "ioValues": [],
+    "topLevel": true,
+    "allAtoms": [],
+    "allConnectors": [],
+    "unitsIndex": 0,
+    "fileTypeVersion": 1,
+    "filetypeVersion": 1
+}
