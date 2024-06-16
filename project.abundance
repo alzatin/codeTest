@@ -6,8 +6,72 @@
     "uniqueID": 1718561553380,
     "ioValues": [],
     "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
+    "allAtoms": [
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": 1718563540256,
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1718563598420
+                }
+            ]
+        },
+        {
+            "atomType": "Code",
+            "name": "Code",
+            "x": 0.4190106692531523,
+            "y": 0.5297805642633229,
+            "uniqueID": 1718563547113,
+            "ioValues": [
+                {
+                    "name": "Input1",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Input2",
+                    "ioValue": 10
+                }
+            ],
+            "code": "//Inputs:[Input1, Input2];\n\n\nreturn [drawRectangle(5,10)]\n//what you return should be a replicad geometry\n\n//Learn more about all of the available methods at \n //https://replicad.xyz/docs/introapp/UserGuide.html \n"
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.6488845780795345,
+            "y": 0.5642633228840126,
+            "uniqueID": 1718563598420,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1718563547113
+                },
+                {
+                    "name": "height",
+                    "ioValue": 10
+                }
+            ]
+        }
+    ],
+    "allConnectors": [
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1718563547113,
+            "ap2ID": 1718563598420
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 1718563598420,
+            "ap2ID": 1718563540256
+        }
+    ],
     "unitsIndex": 0,
     "fileTypeVersion": 1,
     "filetypeVersion": 1
