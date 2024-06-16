@@ -8,18 +8,10 @@
     "topLevel": true,
     "allAtoms": [
         {
-            "atomType": "Output",
-            "name": "Output",
-            "x": 0.98,
-            "y": 0.5,
-            "uniqueID": 1718563540256,
-            "ioValues": []
-        },
-        {
             "atomType": "Code",
             "name": "Code",
-            "x": 0.4190106692531523,
-            "y": 0.5297805642633229,
+            "x": 0.5053346265761397,
+            "y": 0.48902821316614425,
             "uniqueID": 1718563547113,
             "ioValues": [
                 {
@@ -32,6 +24,14 @@
                 }
             ],
             "code": "//Inputs:[Input1, Input2];\n\n\nreturn [drawRectangle(5,10)]\n//what you return should be a replicad geometry\n\n//Learn more about all of the available methods at \n //https://replicad.xyz/docs/introapp/UserGuide.html \n"
+        },
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": 1718563540256,
+            "ioValues": []
         }
     ],
     "allConnectors": [],
