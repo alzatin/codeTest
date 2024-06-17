@@ -10,8 +10,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.39375629405840884,
-            "y": 0.4107744107744108,
+            "x": 0.3232628398791541,
+            "y": 0.3944099378881988,
             "uniqueID": 1718647424675,
             "ioValues": [
                 {
@@ -23,8 +23,8 @@
         {
             "atomType": "Code",
             "name": "Code",
-            "x": 0.43202416918429004,
-            "y": 0.696969696969697,
+            "x": 0.42396777442094663,
+            "y": 0.6739130434782609,
             "uniqueID": 1718647442007,
             "ioValues": [
                 {
@@ -34,24 +34,6 @@
                 {
                     "name": "height",
                     "ioValue": 10
-                }
-            ],
-            "code": "//Inputs:[input1, height];\n\nlet shape = drawRectangle(5,7)\n\nconst newPlane = new Plane().pivot(0, 'Y');\n\n return { geometry: [shape.sketchOnPlane(newPlane).extrude(7)], tags: [],\n      color: '#A3CE5B',\n      plane: newPlane}\n\n\n    /**\n    To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n    If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n    Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n    https://replicad.xyz/docs/introapp/UserGuide.html \n    Return a replicad object that includes geometry, color, tags and plane. \n\n\n    Example Code Atom:\n\n      Inputs:[shape, x];\n\n      let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n\n      return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n\n      - See more examples at _______ \n\n\n    */\n"
-        },
-        {
-            "atomType": "ShrinkWrap",
-            "name": "Shrink Wrap",
-            "x": 0.5850956696878147,
-            "y": 0.6026936026936026,
-            "uniqueID": 1718640681823,
-            "ioValues": [
-                {
-                    "name": "3D shape 1",
-                    "ioValue": ""
-                },
-                {
-                    "name": "3D shape 1",
-                    "ioValue": ""
                 }
             ]
         },
@@ -65,6 +47,23 @@
                 {
                     "name": "number or geometry",
                     "ioValue": 1718647424675
+                }
+            ]
+        },
+        {
+            "atomType": "Code",
+            "name": "Code",
+            "x": 0.5629405840886204,
+            "y": 0.6925465838509317,
+            "uniqueID": 1718649588210,
+            "ioValues": [
+                {
+                    "name": "input1",
+                    "ioValue": 10
+                },
+                {
+                    "name": "height",
+                    "ioValue": 10
                 }
             ]
         }
