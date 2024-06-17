@@ -36,7 +36,7 @@
                     "ioValue": 10
                 }
             ],
-            "code": "//Inputs:[Input1, Input2];\n\nconsole.log(Input1)\n\nreturn [drawRectangle(5,10)]\n//what you return should be a replicad geometry\n\n//Learn more about all of the available methods at \n //https://replicad.xyz/docs/introapp/UserGuide.html \n/**\nTo Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n\nExample Code Atom:\n\n//Inputs:[Input1, Input2];\n\n*/"
+            "code": "//Inputs:[Input1, Input2];\n\nconsole.log(Input1)\n\nreturn [drawRectangle(5,10)]\n//what you return should be a replicad geometry\n\n\n/**\nTo Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\nIf your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \nUse any replicad available methods to modify your geometry. Learn more about all of the available methods at \nhttps://replicad.xyz/docs/introapp/UserGuide.html \n\nExample Code Atom:\n\n//Inputs:[Input1, Input2];\n\n*/"
         },
         {
             "atomType": "ShrinkWrap",
