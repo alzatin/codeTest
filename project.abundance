@@ -16,27 +16,14 @@
             "ioValues": [
                 {
                     "name": "Input1",
-                    "ioValue": 10
+                    "ioValue": 1718640968410
                 },
                 {
                     "name": "Input2",
                     "ioValue": 10
                 }
             ],
-            "code": "//Inputs:[Input1, Input2];\n\n\nreturn [drawRectangle(5,10)]\n//what you return should be a replicad geometry\n\n//Learn more about all of the available methods at \n //https://replicad.xyz/docs/introapp/UserGuide.html \n"
-        },
-        {
-            "atomType": "Output",
-            "name": "Output",
-            "x": 0.98,
-            "y": 0.5,
-            "uniqueID": 1718563540256,
-            "ioValues": [
-                {
-                    "name": "number or geometry",
-                    "ioValue": 1718563547113
-                }
-            ]
+            "code": "//Inputs:[Input1, Input2];\n\nconsole.log(Input1)\n\nreturn [drawRectangle(5,10)]\n//what you return should be a replicad geometry\n\n//Learn more about all of the available methods at \n //https://replicad.xyz/docs/introapp/UserGuide.html \n/**\nTo Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n\nExample Code Atom:\n\n//Inputs:[Input1, Input2];\n\n*/"
         },
         {
             "atomType": "ShrinkWrap",
@@ -54,6 +41,32 @@
                     "ioValue": ""
                 }
             ]
+        },
+        {
+            "atomType": "Output",
+            "name": "Output",
+            "x": 0.98,
+            "y": 0.5,
+            "uniqueID": 1718563540256,
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": 1718563547113
+                }
+            ]
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.20465567410281282,
+            "y": 0.4169278996865204,
+            "uniqueID": 1718640968410,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 10
+                }
+            ]
         }
     ],
     "allConnectors": [
@@ -63,6 +76,13 @@
             "ap2Primary": false,
             "ap1ID": 1718563547113,
             "ap2ID": 1718563540256
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Input1",
+            "ap2Primary": false,
+            "ap1ID": 1718640968410,
+            "ap2ID": 1718563547113
         }
     ],
     "unitsIndex": 0,
